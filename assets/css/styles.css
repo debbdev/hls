@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+}
+.container{
+    background-color: rgb(241, 189, 120);
+    width: 100%;
+    height: 10vh;
+    margin-bottom: 0;
+}
+.head, .wrapper, .main-a, .student-input, .student-main, .admin-box{
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+    font: 1.5em sans-serif;
+}
+.p-box{
+  font: 1em sans-serif;
+  align-items: center;
+  padding-top: 0px;
+  padding-right: 20px;
+}
+.p-item{
+  margin-left: 100px;
+}
+.head-right{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    font: 0.5em sans-serif;
+}
+.admin-right{
+  margin-left: 180px;
+  font: 0.6em sans-serif;
+}
+.student-right{
+  margin-left: 400px;
+  font: 0.65em sans-serif;
+}
+.head-bar{ 
+    margin-left: 50px;
+}
+.head-left{
+    margin-right: 100px;
+    align-items: center;
+}
+.admin-left{
+  margin-right: 180px;
+  align-items: center;
+}
+.student-left{
+  margin-right: 400px;
+  align-items: center;
+}
+.index-a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.index-text{
+    margin-left: 20px;
+}
+.main, .student-main{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    width: 100%;
+    height: 50vh;
+}
+.student-main{
+    padding-top: 15px;
+    font: 1em sans-serif;
+}
+.main-container{
+    background-color: rgb(122, 5, 19);
+    width: 25em;
+    height: 10em;
+}
+.wrapper, .main-a, .student-input{
+    font: 1em sans-serif;
+    align-items: center;
+}
+.main-heading{
+    text-align: center;
+    padding-top: 30px;
+}
+.student-heading{
+    padding-top: 0px;
+}
+.head-bar, .main-container{ 
+    margin-left: 100px;
+}
+.student-wrapper, .admin-wrapper{
+    margin-top: 50px;
+    background-color: rgba(122, 5, 19, 0.5);
+    width: 25em;
+    height: 25em;
+}
+.admin-wrapper{
+  margin-top: 0px;
+  width: 30em;
+}
+.profile-gap{
+  margin-left: 50px;
+}
+.hm-wrapper{
+  width: 40em;
+}
+.profile-main{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.app-wrapper{
+  height: 50em;
+}
+.msg-wrapper{
+  height: 90vh;
+}
+.contact-wrapper{
+  height: 30em;
+}
+.signup-wrapper{
+    height: 35em;
+    width: 30em;
+}
+.student-input{
+    padding-top: 15px;
+    font: 1em sans-serif;
+}
+.label-input{
+    width: 10em;
+    height: 1.5em;
+    border: none;
+    margin-left: 10px;
+}
+.signup-label{
+    width: 30%;
+}
+.student-submit{
+    width: 15em;
+    height: 2em;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.head-input{ 
+    margin-left: 50px;
+    height: 25px;
+}
+.input{
+    height: 28px;
+}
+.two{
+    border: none;
+    background-color: white;
+}
+.wrap{
+    background-color: rgba(235, 235, 235, 0.973);
+    width: 100%;
+    height: 70vh;
+}
+.admin-wrap{
+  background-color: brown;
+  height: 20vh;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.hero, .bottom, .main-box, .details-box, .cart, .cart-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 110px;
+  margin-right: 90px;
+  
+}
+.hero{
+  height: 400px;
+}
+.hero-head{
+  font-size: 5em;
+  width: 80%;
+  margin-bottom: 0;
+}
+.hero-paragraph{
+  margin-bottom: 40px;
+  width: 40%;
+  line-height: 1.5em;
+}
+.hero-btn{
+  width: 30%;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 25px;
+  font-size: large;
+}
+.hero-img{
+  width: 700px;
+  height: 300px;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+.bottom{
+  margin-top: 100px;
+  position: relative;
+}
+.bottom-content{
+  background-color: white;
+  width: 20%;
+  height: 150px;
+  border-radius: 12px;
+  text-align: center;
+  margin-right: 120px;
+}
+.bottom-text h3{
+  transform: rotate(-90deg);
+}
+.bottom-img{
+  width: 180px;
+  height: 150px;
+  position: absolute;
+  top: -70px;
+  left: 210px;
+}
+.f2{
+  left: 730px;
+}
+.f3{
+  left: 1250px;
+}
+.f5{
+  left: 1350px;
+}
+.bottom-arrow{
+  background-color: black;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  color: white;
+}
+.f4{
+  margin: 5px;
+}
+.bottom-p{
+  margin-top: 80px;
+  padding-top: 10px;
+}
+.hostels{
+   background-color: rgba(235, 235, 235, 0.973);
+   height: 450px;
+   width: 100%;
+   margin-top: 0px;
+   padding-top: 5px;
+   padding-bottom: 50px;
+}
+.hostel-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.hostel{
+  width: 20em;
+  height: 7em;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-left: 150px;
+  background-color: darkturquoise;
+}
+.message{
+  margin-left: 50px;
+  margin-right: 25px;
+  line-height: 8px;
+}
+.msgs{
+  line-height: 20px;
+}
+.msg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10px;
+}
+.msg-box hr{
+  width: 300px;
+}
+.bars{
+  display: block;
+  position: relative;
+}
+.bars:hover .bar{
+  display: block;
+}
+.bar{
+  display: none;
+  position: absolute;
+}
+.bar a{
+  display: block;
+  text-decoration: none;
+}
+.app-main{
+  text-align: center;
+  background-color: aquamarine;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.table{
+  background-color: white;
+}
+.app-bar, .box-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-input{
+  width: 15em;
+  height: 2em;
+  border: none;
+}
+.app-btn{
+  width: 60px;
+  height: 2.05em;
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: small;
+}
+.app-table{
+  justify-content: center;
+  width: 50%;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.empty-table{
+  width: 20%;
+}
+.main-table{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+tr{
+  padding-top: 20px;
+}
